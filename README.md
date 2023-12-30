@@ -16,9 +16,9 @@ Before running this program you need to make file .env in the very first folder.
 After making env file you can go to next step :
 
 - first you need to install all packages using: `npm install`
+- then you need to make database with prisma by following this code: `npx prisma db push`
 - You can run this program by writing this code in your favourite terminal: `npm run build && npm run start`
 - if you want to run development server you can write : `npm run dev`
-- or if you have docker you can just : `docker compose up -d`
 
 And for the last you can go to [http://localhost:3000/](http://localhost:3000/)
 
